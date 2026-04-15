@@ -35,7 +35,7 @@ export const VisibilityProvider = ({ children }) => {
   return (
     <VisibilityCtx.Provider value={{ visible, setVisible }}>
       <ScreenContext.Provider value={{ screen, setScreen }}>
-        <div style={{ visibility: visible ? "visible" : "hidden"}}>
+        <div style={{ visibility: visible ? "visible" : "hidden", width: "100%", height: "100vh" }}>
           {children}
         </div>
       </ScreenContext.Provider>
