@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/akrobat');
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+.akrobat {
+    font-family: 'Akrobat Black', sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.light {
+    font-family: 'Akrobat Light', sans-serif;
+}
+
+.extra-light {
+    font-family: 'Akrobat ExtraLight', sans-serif;
+}
+
+.semi-bold {
+    font-family: 'Akrobat SemiBold', sans-serif;
+}
+
+.bold {
+    font-family: 'Akrobat Bold', sans-serif;
+}
+
+.extra-bold {
+    font-family: 'Akrobat ExtraBold', sans-serif;
+}
+
+.black {
+    font-family: 'Akrobat Black', sans-serif;
+}
